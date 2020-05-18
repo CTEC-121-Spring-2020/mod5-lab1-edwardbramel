@@ -44,7 +44,7 @@ def main2():
 
 # generALIZE FOR ANY PERSON
 """ IPO happy()
-Input(s): none
+Input(s): name
 Process: prints/outputs verse line of happy birthday song
 Output: prints to terminal screen
 """
@@ -62,5 +62,29 @@ def main3():
     happy()
     print()
 
+# combine song into a function
 
-main3()
+
+""" IPO happy()
+Input(s): name
+Process: prints/outputs of happy birthday song
+Output: prints to terminal screen
+"""
+
+
+def singhappyBday(name):
+    happy()
+    happy()
+    happyBDay(name)
+    happy()
+    print()
+
+
+def main4():
+    print()
+    singhappyBday("fred")
+    singhappyBday("lucy")
+    singhappyBday("bill")
+
+
+main4()
